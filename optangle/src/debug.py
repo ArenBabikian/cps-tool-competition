@@ -17,6 +17,9 @@ def validate(executor, the_test):
 def visualise(executor, the_test):
     executor.road_visualizer.visualize_road_test(the_test)
 
+def visualise_simple(executor, the_test):
+    executor.road_visualizer.simple_vis(the_test)
+
 def analyse_result_features(path_to_result_folder):
     features_list = []
     for filename in os.listdir(path_to_result_folder):

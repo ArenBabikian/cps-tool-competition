@@ -8,7 +8,7 @@ from shapely.geometry import LineString
 
 # TODO future work:
 # fine-tune these values. For now, (20, 65, (3, 20)) is best, then (10, 35, (5, 30)), then (15, 50, (5, 30))
-D_TO_NEXT_POINT = 20
+D_TO_NEXT_POINT = 20 # use 70 for visualization
 THETA_MAX = 65
 POINTS_RANGE = (3, 20)
 
